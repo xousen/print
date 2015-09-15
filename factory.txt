@@ -1,0 +1,1 @@
+O:4:"Info":8:{s:12:" Info number";s:3:"100";s:15:" Info date_sign";s:10:"2015-09-15";s:17:" Info id_customer";s:1:"1";s:19:" Info name_customer";s:5:"Sasha";s:13:" Info company";s:9:"company_1";s:19:" Info title_service";a:2:{i:0;s:9:"Service-1";i:1;s:9:"Service-2";}s:17:" Info id_contract";i:1;s:8:" Info db";i:0;}
