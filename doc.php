@@ -131,7 +131,7 @@
 	function WriteObject($filename, $object)
 	{
 		// відкриття файлу
-		$file = fopen($filename, 'w');
+		$file = fopen($filename, 'a');
 		// серіалізація об'єкту
 		$buffer=serialize($object);
 		// запис
@@ -145,12 +145,6 @@
 	// головна функція
 	function main($id_contract, $filename, $host, $dbname, $user, $pass)
 	{
-		// вхідні дані
-		$id_contract=1;
-
-		// фабрика об'єктів
-		$filename='factory.txt';
-		
 		// пошук об'єкта у фабриці
 		$object=SearchObject($filename, $id_contract);
 		
